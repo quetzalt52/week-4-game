@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta charset="UTF-8">
+	<title>Crystals Collector Game </title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+     
+    <body>
+    	<div id="header">
+    		<p>Crystals Collector!</p>
+    	</div>
+      <section id="rules">
+        <p>You will be given a random number at the start of the game.</p><br><br>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific
+         amount of points to your total score.</p><br><br>
+        <p>You win the game by matching your total score to random number, you lose the game 
+        if your total score goes above the random number.</p><br><br>
+        <p>The value of each crystals is hidden from you until you click on it.</p><br><br>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p><br><br>
+      </section>
+      
+      <div class="points">
+      	<h1></h1>
+      </div>
+      
+      <div class="displayScore">
+      	<h3><span id="status"></span>
+        <h3>Wins: <span id="win"></span></h3>
+    	  <h3>Losses: <span id="loss"></span></h3>
+      </div>
+     
+        <div id="stones">  
+         <button id="rock"><img src="assets/images/rhodolite.jpg" class="gems" alt="Rhodolite stone" value ='4'/></button>
+         <button id="diamond"><img src="assets/images/pink diamond.jpg" class="gems" alt="Pink Diamond" value ='4'/> </button>
+         <button id="citrine"><img src="assets/images/citrine.jpg" class="gems" alt="Citrine stone" value ='4'/> </button>
+         <button id="emerald"><img src="assets/images/emerald.jpg" class="gems" alt="Emerald stone" value ='4'/> </button>
+        </div>
+
+        <div class="totalScore">
+     	    <h2 id="yourScore">Your total score is: </h2>
+        </div>
+     
+        <div class="score"> </div>
+
+      <!-- JQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="assets/javascript/game.js"></script> 
+    </body>
+</html>

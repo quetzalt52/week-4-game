@@ -1,0 +1,105 @@
+body {
+	background: url("../images/background.jpg");
+	background-repeat: repeat;
+}
+#header {
+	width: 20%;
+	background-color: #c5611e;
+	height: 50px;
+	font-size: 35px;
+	color:white;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 30px;
+	padding-left: 10px;
+}
+
+#rules {
+	clear: both;
+	width: 50%;
+	height: 350px;
+	color: #0eab0e;
+	font-weight: bold;
+	font-size: 19px;
+	letter-spacing: .2px;
+	line-height: 100%;
+	background-color: #fde8a8;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 30px;
+	padding-left: 10px;
+
+}
+
+.points {
+	clear: both;
+	float:left;
+	width: 20%;
+	background-color: #56c456;
+	height: 75px;
+	font-size: 50px;
+	color:black;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 30px;
+	padding-left: 10px;
+}
+.displayScore {
+	float:left;
+	background-color: #b3fcf4;
+	width: 15%;
+	height: 75px;
+	color: black;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 10px;
+}
+
+#stones {
+  clear:both;
+  float:left;
+  margin-top:5px;
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-bottom: 7px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+.gems {
+  
+  width: 75px;
+  height: 75px;
+  
+}
+.totalScore {
+	clear: both;
+	width: 25%;
+	background-color: #2ea399;
+	height: 13px;
+	font-size: 18px;
+	color:white;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 7px;
+	padding: 10px 10px;
+	
+}
+.score {
+	clear: both;
+	width: 20%;
+	background-color: #2ea399;
+	height: 75px;
+	font-size: 50px;
+	color:white;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 10px;
+	padding: 30px;
+	padding-left: 10px;
+}
